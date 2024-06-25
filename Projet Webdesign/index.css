@@ -1,0 +1,28 @@
+h1{
+    color: blue;
+    width: 500px;
+    background-color: blanchedalmond;
+    padding: 50px;
+    text-align: center;
+    text-decoration: underline;
+    margin: auto;
+}
+header{
+    background-color: antiquewhite;
+}
+nav a{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+section p{
+    padding: auto;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    text-align: center;
+}
+section img{
+    background: none center;
+}

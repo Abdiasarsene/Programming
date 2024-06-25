@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon debut en HTML et CSS</title>
+    <link rel="stylesheet" href="website.css"/>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="https://lejardinierheureux.com/wp-content/uploads/2023/07/cropped-logo-principal-sans-fond-e1690586898456-300x74.png" alt=""/>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Nos tarifs</a></li>
+                    <li><a href="#">A propos de nous</a></li>
+                    <li><a href="#">Nous contactez</a></li>
+                </ul>
+            </nav>
+            <div class="search-icon">
+                <button>Prendre rendez-vous</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <br>
+        <div class="firsec">
+            <div class="new">
+                <h1>Bienvenue dans notre boutique, LE JARDINIER HEUREUX</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis incidunt doloribus veniam unde voluptate voluptatibus dolor deserunt maiores fuga minima blanditiis ipsum, tenetur numquam tempora ut magni ipsam sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur est dignissimos necessitatibus, optio minima reiciendis deleniti adipisci dolorem sapiente, aut pariatur quis excepturi, magnam dolore inventore. Quasi fugiat culpa eius?</p>
+            </div>
+        </div>
+        <div class="formulaire">
+            <div class="prsection">
+                <h1>Demandez un service </h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam temporibus dicta cum culpa molestiae omnis inventore. Atque eius itaque fuga, sint eaque nostrum pariatur voluptatum dolorem facere quod eveniet quos.</p>
+            </div>
+            <form method="get" action="">
+                <fieldset><legend>Vos informations</legend>
+                    <label>Nom</label> : <input type="texte" name="nom" id="prenom" placeholder="Arsène" size="15" maxlength="30" autofocus>
+                    <label>Prénom</label> : <input type="texte"name="prenom" placeholder="Abdias" size="15" maxlength="30">
+                    <label>E-mail</label> : <input type="email" name="mail" id="mail" placeholder="Mon mail" size="20" maxlength="20">
+                    <label>Votre pays de résidence</label>:<select name="pays" id="pays">
+                        <option value="benin">Bénin</option>
+                        <option value="mali">Mali</option>
+                        <option value="senegal">Sénégal</option>
+                        <option value="burkinafaso">Burkina faso</option>
+                        <option value="togo">Togo</option>
+                    </select>
+                </fieldset>
+                <br>
+                <fieldset><legend>Renseignez ici votre demande</legend>
+                    <label>Type de service</label> : 
+                    <input type="checkbox" name="SEO" id="seo"><label>SEO</label>
+                    <input type="checkbox" name="SEA" id="sea"><label>SEA</label>
+                    <input type="checkbox" name="Webdesign" id="webdesign"><label>Webdesign</label>
+                    <input type="checkbox" name="Rédaction" id="redaction"><label>Rédaction</label>
+                    <label>Date</label> : <input type="date" id="start" name="dates"><br>
+                    <br><label for="devis">Prendre un devis</label>
+                        <textarea name="mon devis" id="devis"></textarea>
+                </fieldset>
+                <br><input type="submit" value="Envoyer">
+                </form>
+        </div>
+        <div class="service">
+            <div class="noser">
+                <h2>Nos services chez LE JARDINIER HEUREUX</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi tempore explicabo consequuntur temporibus ducimus illum! Nulla deserunt necessitatibus, explicabo numquam ut, magnam perspiciatis, illo aspernatur architecto voluptate non ab vero!</p>
+            </div>
+        </div>
+        <div class="carre">
+            <div class="serv">
+                <div class="first"><fieldset>
+                </fieldset></div>
+                <div class="second"><fieldset>
+                    
+                </fieldset></div>
+                <div class="third"><fieldset>
+                    
+                </fieldset></div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>

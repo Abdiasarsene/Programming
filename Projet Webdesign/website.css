@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: wheat;
+    color: #fff;
+    }
+.logo img{
+    height: 50px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    color:black ;
+}
+a{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-align: underline;
+}
+a:hover{color: blueviolet;}
+button{
+    margin: auto;
+    border: solid blueviolet;
+    height: 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.firsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://st2.depositphotos.com/1041088/11271/i/380/depositphotos_112712762-stock-photo-small-green-fenced-back-yard.jpg) center fixed;
+    background-size: contain;
+    margin: -20px 0px ;
+    padding: 20px;
+    height: 400px;
+}
+.new{
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: 50px 200px ;
+    opacity: 0.78;
+    border: solid white;
+    border-radius: 30px;
+}
+.new h1{
+    color:#82be1e;
+    text-decoration: none;
+    font-size: x-large;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.new hr{
+    margin: 0px 300px 0px 300px ;
+    margin-top: 30px;
+    border: solid 3px white;
+    text-align: center;
+}
+.new p{
+    color: azure;
+    margin: 50px 80px 50px 80px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1,5;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+.formulaire{
+    margin: 60px;
+}
+.prsection h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, sans-serif ;
+    color: goldenrod;
+}
+.prsection p{
+    margin: 0px 30px 30px 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 2;
+}
+.formulaire fieldset{   
+    background-color: goldenrod;
+    border-radius: 20px ;
+    border: dashed;
+}
+form{
+    justify-items: center;
+}
+legend{
+    border: solid black;
+    border-radius: 20px;
+    background-color: #82be1e;
+    font-size: medium;
+}
+label{
+    font-weight: 700;
+}
+footer{
+    margin: 0;
+}
+.service{
+    display: flex;
+    justify-content: end;
+    height: 200px;
+    background-color: #82be1e;
+    align-items: center;
+}
