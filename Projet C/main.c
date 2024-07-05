@@ -12,5 +12,33 @@ int main(int argc, char *argv[])
     printf("Entrez un nombre b : \n");
     scanf("%lf", &b);
     resultat = division(a,b);
+
+    int temps=0;
+    int secondePassee=0;
+    int tempsPasse=0;
+
+    printf("le temps passé dans le catalyseur");
+    scanf("%d",&temps);
+    printf("le temps passé dans le catalyseur");
+    scanf("%d",&secondePassee);
+    tempsPasse=distanceParcourue(temps, secondePassee);
+
+    // définition des pointeurs
+    int *pointeurSurtemps =&temps;
+    int *pointeurSursecondePassee =&secondePassee;
+    int *pointeurSurtempsPasse =&tempsPasse;
+
+    // affichage des pointeurs
+    printf("%d",pointeurSursecondePassee);
+    printf("%d",*pointeurSursecondePassee);
+
+    // petit exercice d'échauffement
+    int premierCoups= 12;
+    int deuxiemeCoups= 34;
+    echange(&premierCoups, &deuxiemeCoups);
+    printf("avant l'échange : premierCoups=%d, deuxiemeCoups= %d",premierCoups, deuxiemeCoups );
+    
+    printf("après l'échange : premierCoups=%d, deuxiemeCoups=%d", premierCoups, deuxiemeCoups);
     return 0;
 }
+

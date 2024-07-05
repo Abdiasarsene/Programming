@@ -11,10 +11,9 @@ int main(int argc, char *argv[])
     int nombreDeGarcon= 12345, nombreDeFilles=45623, resultat=0;
     nombreDeGarcon+nombreDeFilles;
     resultat= nombreDeGarcon+nombreDeFilles;
-    printf("Nous avons comme résultat :%d", resultat)
+    printf("Nous avons comme résultat :%d", resultat);
 
-    int nombreDeFilles=200;
-    if (nombreDeFilles >=   34 )
+    if(nombreDeFilles >= 34 )
     {
         printf ("Vous etes majeur !");
     }
@@ -40,7 +39,7 @@ int main (int argc, char *argv[])
     }
     else if (age == 0)
     {
-        printf(' vous etes ni majeur ni mineur, mais plutôt un enfant')
+        printf(' vous etes ni majeur ni mineur, mais plutôt un enfant');
     }
     else
     {
@@ -60,7 +59,7 @@ int main (int argc, char *argv[])
     printf("quel est votre choix?\n");
 
     printf('quel est votre menu, s\'il vous plait');
-    scanf(%d, &choixMenu);
+    scanf("%d", &choixMenu);
     
     // liste des menus servis dans le restaurant avec une codintion
     switch(choixMenu)
@@ -83,7 +82,7 @@ int main (int argc, char *argv[])
     while (nombre!=47)
     {
         printf(' tapez votre nombre');
-        scanf(%d,&nombre)
+        scanf("%d",&nombre);
     }
 
     int age=0;
@@ -91,7 +90,7 @@ int main (int argc, char *argv[])
     while(age<30)
     {
         printf('quel est votre age');
-        scanf(%d,&age);
+        scanf("%d",&age);
         printf('finalement votre age est %d, ', age);
     }
     return 0;
@@ -100,9 +99,9 @@ int main (int argc, char *argv[])
     while( tempsResttant==3)
     {
         printf('taper votre code');
-        scanf(%d,&motDePasse);
-        printf(bienvenue dans notre site)
-        tempsResttant++
+        scanf("%d",&motDePasse);
+        printf("bienvenue dans notre site");
+        tempsResttant++;
     }
     }
 }
@@ -143,7 +142,7 @@ int main(int argc, char *argv[])
 
     return 0; // Fin du programme
 
-    for (int tempsRestant=0, tempsRestant<5, tempsRestant++)
+    for (int tempsRestant=0; tempsRestant<5; tempsRestant++)
     {
         printf("Taper votre code: ");
         scanf("%d", &motDePasse);
@@ -158,7 +157,7 @@ int main(int argc, char *argv[])
         }
     }
 
-    for( int age=0,age== signed char,age++)
+    for( int age=0;age==34;age++)
     {
         printf('quel est votre age');
         scanf('%d', &age);
@@ -168,11 +167,7 @@ int main(int argc, char *argv[])
         }
         else
         {
-            printf('vous ne pouvez pas entrer, c`\'est une jeu dédié aux moins de 18 ans')
+            printf('vous ne pouvez pas entrer, c`\'est une jeu dédié aux moins de 18 ans');
         }
     }
-}
-
-{
-    return largeur * hauteur;
 }

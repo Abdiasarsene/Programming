@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 
+
+// premier exercice
+
+
 int main() {
     int nombreAleatoire, tentative, nombreDeTentatives = 5;
     int nombreEntre;
@@ -35,6 +39,7 @@ int main() {
     return 0;
 }
 
+// deuxième exercice
 
 #include <stdio.h>
 
@@ -56,7 +61,7 @@ int main() {
     return 0;
 }
 
-
+// troisième exercice
 
 #include <stdio.h>
 
@@ -78,6 +83,36 @@ int main() {
         } else {
             printf("Vous êtes mineur.\n");
         }
+    }
+    
+    return 0;
+}
+
+
+// notion sur les tableaux
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[])
+{
+    int tableau[4],i=0 ;
+
+    tableau[0]= 23;
+    tableau[1]= 10;
+    tableau[2]= 4565;
+    tableau[3]= 235;
+
+    printf("%d",tableau); // j'affiche dans ce cas, la valeur du tableau, qui, à l'origine est un pointeur, d'où, l'adresse.
+
+    printf("%d",*tableau); // je montre la valeur de la première ligne du tableau
+
+    printf("%d",*(tableau+1)); // ceci est la valeur de la deuxième ligne, ainsi de suite
+
+    // cependant pour afficher toutes les lignes du téableau, on pourrait utiliser la boucle for
+    for (i=0; i<4; i++)
+    {
+        printf("%d",*(tableau+i));
     }
 
     return 0;

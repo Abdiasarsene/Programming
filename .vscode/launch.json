@@ -29,8 +29,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/ARMIDE Informatique/Desktop/Projet Informatique/Programation/Projet C",
-      "program": "c:/Users/ARMIDE Informatique/Desktop/Projet Informatique/Programation/Projet C/build/Debug/outDebug",
+      "cwd": "c:/Users/ARMIDE Informatique/Desktop/Projet Informatique/Programation/Projet C/trying",
+      "program": "c:/Users/ARMIDE Informatique/Desktop/Projet Informatique/Programation/Projet C/trying/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
