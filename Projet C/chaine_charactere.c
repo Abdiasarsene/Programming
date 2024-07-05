@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main(int argc, char *argv[])
+int main(void)
 {
     //  écrivons le mot salutation avec du char
     char lettres[11];

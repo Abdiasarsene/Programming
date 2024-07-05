@@ -1,18 +1,62 @@
 {
+    "version": "2.0.0",
     "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                "-Wextra",
+                "-Wpedantic",
+                "-Wshadow",
+                "-Wformat=2",
+                "-Wcast-align",
+                "-Wconversion",
+                "-Wsign-conversion",
+                "-Wnull-dereference",
+                "-g3",
+                "-O0",
+                "-c",
+                "chaine_charactere.c",
+                "-o",
+                "${workspaceFolder}/build/Debug/chaine_charactere.o"
+            ],
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Generated task"
+        },
+        {
+            "label": "link",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "${workspaceFolder}/build/Debug/chaine_charactere.o",
+                "-o",
+                "${workspaceFolder}/build/Debug/outDebug.exe"
+            ],
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Generated task"
+        },
         {
             "type": "cppbuild",
             "label": "C/C++: gcc.exe générer le fichier actif",
-            "command": "C:\\MinGW\\bin\\gcc.exe",
+            "command": "C:/MinGW/bin/gcc.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                ""
             ],
             "options": {
-                "cwd": "${fileDirname}"
+                "cwd": "C:/MinGW/bin"
             },
             "problemMatcher": [
                 "$gcc"
@@ -23,6 +67,5 @@
             },
             "detail": "Tâche générée par le débogueur."
         }
-    ],
-    "version": "2.0.0"
+    ]
 }
