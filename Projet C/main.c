@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "test.h"
+#include "exo.h"
 
 int main(int argc, char *argv[])
 {
@@ -39,6 +40,9 @@ int main(int argc, char *argv[])
     printf("avant l'échange : premierCoups=%d, deuxiemeCoups= %d",premierCoups, deuxiemeCoups );
     
     printf("après l'échange : premierCoups=%d, deuxiemeCoups=%d", premierCoups, deuxiemeCoups);
+
+    DossierSurCollecteDesDonneesSurEtudiantMaster abdias;
+    
     return 0;
 }
 
