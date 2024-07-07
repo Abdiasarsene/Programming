@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
     
     printf("après l'échange : premierCoups=%d, deuxiemeCoups=%d", premierCoups, deuxiemeCoups);
 
-    DossierSurCollecteDesDonneesSurEtudiantMaster abdias;
+    // DossierSurCollecteDesDonneesSurEtudiantMaster abdias;
     
     return 0;
 }
