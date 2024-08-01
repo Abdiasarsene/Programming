@@ -6,7 +6,7 @@
 typedef struct
 {
     int age;
-    int taille;
+    double taille[10];
     int classe;
     char sexe;
     char couleurPreferee[20];
@@ -15,4 +15,14 @@ typedef struct
     double moyenneSemestrielle;
 } DossierSurCollecteDesDonneesSurEtudiantMaster;
 
+typedef struct
+{
+    int age;
+    char classe[50];
+    double taille;
+    double moyenneDeClasse;
+} TableauxDonneesNumerique;
+
 #endif /* EXO_H */
+void selectiondosisier();
+void selectiontableau();
