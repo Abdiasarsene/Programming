@@ -60,5 +60,4 @@ int main(int argc, char *argv[])
     DossierSurCollecteDesDonneesSurEtudiantMaster *fichier =NULL; /*je viens de créer un pointeur pour ma structure*/
     
     
-}
 
